@@ -1,0 +1,468 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <title>vue impress.js ball example</title>
+    <link rel="shortcut icon" href=/logo.png>
+    <link href="../Impress/app.css" rel="stylesheet" />
+   
+
+</head>
+<body>
+    <div id=app></div>
+    <script src="../Impress/manifest.js"></script>
+    <script src="../Impress/vendor.js"></script>
+  
+    <!--<script src="script/app.js"></script>-->
+    <script src="../Impress/jquery-1.10.2.min.js"></script>
+ 
+
+    <script>
+        $(document).ready(function () {
+
+            var c = "";
+
+            $('.impress-step').click(function () {
+
+                var a = $(this).html();
+
+
+                if (a == 'angularjs')
+                {
+                    var url = "https://angularjs.org/";
+                    window.open(url, '_blank');
+
+                }
+                    if(a=='babel')
+                    {
+                        var url = "https://babeljs.io/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'bash') {
+                        var url = "https://www.gnu.org/software/bash/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'bootstrap') {
+                        var url = "http://getbootstrap.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'bower') {
+                        var url = "https://bower.io/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'browserify') {
+                        var url = "http://browserify.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'c') {
+                        var url = "https://www.tutorialspoint.com/csharp/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'cacti') {
+                        var url = "http://www.cacti.net/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'chrome') {
+                        var url = "https://www.google.com/chrome/browser/desktop/index.html";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'coffeescript') {
+                        var url = "https://www.codeschool.com/courses/coffeescript?gclid=CNSBs-iLuNQCFc6FaAod3dQJyA";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'cordova') {
+                        var url = "https://cordova.apache.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'couchdb') {
+                        var url = "http://couchdb.apache.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'css') {
+                        var url = "https://www.w3schools.com/css/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'd3') {
+                        var url = "https://d3js.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'debian') {
+                        var url = "https://www.debian.org/";
+                        window.open(url, '_blank');
+                        window.location = 'https://www.debian.org/';
+                    }
+                    if (a == 'erlang') {
+                        var url = "https://www.fastcompany.com/3026758/inside-erlang-the-rare-programming-language-behind-whatsapps-success";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'es6') {
+                        var url = "http://es6-features.org/#Constants";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'eslint') {
+                        var url = "http://eslint.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'firefox') {
+                        var url = "https://www.mozilla.org/en-US/firefox/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'git') {
+                        var url = "https://git-scm.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'golang') {
+                        var url = "https://golangweekly.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'grunt') {
+                        var url = "https://gruntjs.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'gulp') {
+                        var url = "http://gulpjs.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'html') {
+                        var url = "https://www.w3schools.com/html/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'iconmoon') {
+                        var url = "https://icomoon.io/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'jasmine') {
+                        var url = "https://jasmine.github.io/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'jquery') {
+                        var url = "https://jquery.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'karma') {
+                        var url = "http://jdav.is/2016/02/01/karma-jasmine-visual-studio-including-visual-studio-code/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'less') {
+                        var url = "http://lesscss.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'linux') {
+                        var url = "https://www.linux.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'lodash') {
+                        var url = "https://lodash.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'meteor') {
+                        var url = "https://www.meteor.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'mfs') {
+                        var url = "https://www.mfs.com/content/en_us.html";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'mocha') {
+                        var url = "http://www.mocha.co.in/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'mongodb') {
+                        var url = "https://www.mongodb.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'mysql') {
+                        var url = "https://www.mysql.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'nagios') {
+                        var url = "https://www.nagios.org/about/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'nginx') {
+                        var url = "https://www.nginx.com/resources/wiki/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'nodejs') {
+                        var url = "https://nodejs.org/en/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'npm') {
+                        var url = "https://www.npmjs.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'ntop') {
+                        var url = "http://www.ntop.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'php') {
+                        var url = "https://www.codecademy.com/learn/php";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'postfix') {
+                        var url = "http://www.postfix.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'puppet') {
+                        var url = "https://puppet.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'rails') {
+                        var url = "http://rubyonrails.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'react') {
+                        var url = "https://facebook.github.io/react/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'redux') {
+                        var url = "http://redux.js.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'riak') {
+                        var url = "http://basho.com/products/riak-kv/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'roundcube') {
+                        var url = "https://roundcube.net/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'ruby') {
+                        var url = "https://www.ruby-lang.org/en/downloads/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'sass') {
+                        var url = "http://sass-lang.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'socketio') {
+                        var url = "https://socket.io/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'svg') {
+                        var url = "https://www.w3schools.com/graphics/svg_intro.asp";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'ubuntu') {
+                        var url = "https://www.ubuntu.com/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'vim') {
+                        var url = "http://www.vim.org/download.php";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'vue') {
+                        var url = "https://vuejs.org/";
+                        window.open(url, '_blank');
+
+                    }
+                    if (a == 'webpack') {
+                        var url = "https://webpack.js.org/";
+                        window.open(url, '_blank');
+
+                    }
+                });
+        });
+
+            webpackJsonp([1, 0], [function (t, e, n) {
+                "use strict";
+
+                function p(t) {
+                    return t && t.__esModule ? t : {
+                        default: t
+                    }
+                }
+                var s = n(1),
+                    r = p(s),
+                    o = n(7),
+                    a = p(o);
+                new r.default(a.default).$mount("#app")
+            }, , function (t, e, n) {
+                "use strict";
+
+                function p(t) {
+                    return t && t.__esModule ? t : {
+                        default: t
+                    }
+                }
+                Object.defineProperty(e, "__esModule", {
+                    value: !0
+                });
+                var s = n(1),
+                    r = p(s),
+                    o = n(6),
+                    a = p(o);
+                n(3);
+                var i = n(5),
+                    g = p(i);
+                r.default.use(a.default);
+                for (var u = function (t) {
+                     return t.replace(/\..+$/, "") ;
+                }, c = [], f = 500, l = 11, d = 360 / l, h = ["y", "x", "z"], m = 0, v = 60; v >= -60; v -= 30) {
+                    for (var x = Math.sin(v * Math.PI / 180) * f, b = Math.cos(v * Math.PI / 180) * f, k = 0; k < l; k += 1) {
+                        var y = d * k * Math.PI / 180;
+                        c.push({
+                            x: Math.cos(y) * b,
+                            y: x,
+                            z: Math.sin(y) * b,
+                            rotateY: 90 - d * k,
+                            rotateX: -v,
+                            rotateOrder: h,
+                            content: u(g.default[k + m * l])
+                        })
+                    }
+                    m += 1
+                }
+                c.push({
+                    x: 0,
+                    y: -f,
+                    z: 0,
+                    rotateX: 90,
+                    content: u(g.default[g.default.length - 1])
+                }), c.push({
+                    x: 0,
+                    y: f,
+                    z: 0,
+                    rotateX: -90,
+                    content: u(g.default[g.default.length - 2])
+                }), c.unshift({
+                    x: 0,
+                    content: "",
+                    scale: 3,
+                    rotateX: 30,
+                    rotateY: 360,
+                    id: "overview"
+                }), e.default = {
+                    methods: {
+                        impressPrevStep: function () {
+                            this.$refs.impress.prevStep()
+                        },
+                        impressNextStep: function () {
+                            this.$refs.impress.nextStep()
+                        },
+                        startRotate: function () {
+                            var t = this;
+                            clearInterval(this.ticker), this.ticker = setTimeout(function () {
+                                var e = Math.floor(Math.random() * c.length);
+                                t.$refs.impress.gotoStep(e)
+                            }, 3e3)
+                        }
+                    },
+                    mounted: function () {
+                        var t = this;
+                        this.$refs.app.focus(), this.startRotate(), this.$refs.impress.$on("impress:stepleave", function () {
+                            t.startRotate()
+                        })
+                    },
+                    data: function () {
+                        return {
+                            config: {
+                                width: 800,
+                                height: 800
+                            },
+                            steps: c
+                        }
+                    }
+                }
+            }, function (t, e) { }, function (t, e) { }, function (t, e) {
+                 t.exports = ["angularjs.jpg", "babel.svg", "bash.png", "bootstrap.png", "bower.png", "browserify.png", "c.png", "cacti.png", "chrome.png", "coffeescript.png", "cordova.png", "couchdb.png", "css.png", "d3.png", "debian.png", "erlang.png", "es6.png", "eslint.svg", "firefox.png", "git.png", "golang.png", "grunt.png", "gulp.png", "html.png", "iconmoon.png", "jasmine.png", "jquery.png", "karma.png", "less.png", "linux.png", "lodash.png", "meteor.png", "mfs.png", "mocha.png", "mongodb.png", "mysql.png", "nagios.png", "nginx.png", "nodejs.png", "npm.svg", "ntop.png", "php.png", "postfix.png", "puppet.png", "rails.png", "react.png", "redux.png", "riak.png", "roundcube.png", "ruby.png", "sass.svg", "socketio.png", "svg.png", "ubuntu.png", "vim.png", "vue.png", "webpack.png"]
+
+                 c = t.exports[0].replace(/\..+$/, "");
+                  //alert(c);
+
+
+
+        }, , function (t, e, n) {
+            n(4);
+            var p = n(8)(n(2), n(9), null, null);
+            t.exports = p.exports
+        }, , function (t, e) {
+            t.exports = {
+                render: function () {
+                    var t = this,
+                        e = t.$createElement,
+                        n = t._self._c || e;
+                    return n("div", {
+                        ref: "app",
+                        staticClass: "app",
+                        attrs: {
+                            tabindex: "1"
+                        },
+                        on: {
+                            keyup: [function (e) {
+                                t._k(e.keyCode, "right", 39) && t._k(e.keyCode, "space", 32) || t.impressNextStep(e)
+                            }, function (e) {
+                                 t._k(e.keyCode, "left", 37) || t.impressPrevStep(e)
+                            }]
+                        }
+                    }, [n("impress-viewport", {
+                        ref: "impress",
+                        attrs: {
+                            steps: t.steps,
+                            config: t.config
+                        }
+                    })], 1)
+                },
+                staticRenderFns: []
+            }
+
+        }]);
+
+    </script>
+</body>
+</html>
